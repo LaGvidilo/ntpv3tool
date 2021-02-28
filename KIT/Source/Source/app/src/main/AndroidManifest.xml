@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="fr.informabox.nootropiques"
+        android:versionCode="301"
+        android:versionName="3.0.1" >
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver android:name=".takotac">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/takotac_info" />
+        </receiver>
+
+        <activity android:name=".RulesConf" />
+        <activity android:name=".MoreDetails" />
+        <activity android:name=".Favoris" />
+        <activity android:name=".PreOrder" />
+        <activity android:name=".FAQ" />
+        <activity android:name=".About" />
+        <activity android:name=".MainDetails" />
+        <activity android:name=".LaGvidiloProducts" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

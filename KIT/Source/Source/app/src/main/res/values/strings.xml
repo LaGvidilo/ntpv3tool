@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes"?>
+<resources>
+    <string name="aboutstr">\n    \n        Voici la nouvelle application ?? au sujet de ????? !</string>
+    <string name="action_reply">\n    Reply</string>
+    <string name="action_share">\n    Share</string>
+    <string name="add_widget">\n    Add widget</string>
+    <string name="appwidget_text">\n\n    EXAMPLE</string>
+    <string name="avert"> Avertir : blabla </string>
+    <string name="app_name">KIT-NTPP3-ANDROID</string>
+    <string name="regles">regles a ecrire ici</string>
+
+    <string-array name="nootropes_array">
+        <item>adrafinil</item>
+        <item>alphagpc</item>
+        <item>citicoline</item>
+        <item>noopept</item>
+        <item>phenylpiracetam</item>
+        <item>piracetam</item>
+        <item>pramiracetam</item>
+        <item>prl853</item>
+        <item>teacrine</item>
+        <item>coluracetam</item>
+    </string-array>
+    <string-array name="nootropes_array2">
+        <item>adrafinil</item>
+        <item>alphagpc</item>
+        <item>citicoline</item>
+        <item>noopept</item>
+        <item>phenylpiracetam</item>
+        <item>piracetam</item>
+        <item>pramiracetam</item>
+        <item>prl853</item>
+        <item>teacrine</item>
+        <item>coluracetam</item>
+    </string-array>
+    <string-array name="types_array">
+        <item>Concentration</item>
+        <item>Memoire</item>
+        <item>Regeneration</item>
+        <item>Energie</item>
+    </string-array>
+    <string-array name="cat_focus_array">
+        <item>alphagpc</item>
+        <item>citicoline</item>
+        <item>pramiracetam</item>
+    </string-array>
+    <string-array name="cat_regenerate_array">
+        <item>noopept</item>
+        <item>coluracetam</item>
+    </string-array>
+    <string-array name="cat_memory_array">
+        <item>piracetam</item>
+        <item>prl853</item>
+    </string-array>
+    <string-array name="cat_energy_array">
+        <item>adrafinil</item>
+        <item>phenylpiracetam</item>
+        <item>teacrine</item>
+    </string-array>
+</resources>
